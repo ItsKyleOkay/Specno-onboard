@@ -3,7 +3,6 @@ import classes from "../StudentMainPage/RegisterCourse.module.css";
 import firebase from "firebase";
 import { db } from "../firebase";
 import { useNavigate } from "react-router-dom";
-import MyPDF from "../Components/InspireAcademyParentAgreement.pdf";
 import storage from "../firebase";
 
 const Register = () => {
@@ -158,14 +157,6 @@ const Register = () => {
                               Please download the parent confirmation pdf
                               provided to prove parental agreement.
                             </h1>
-                            <a
-                              className={classes.pdf}
-                              href={MyPDF}
-                              download="ParentAgreement.pdf"
-                            >
-                              {" "}
-                              Download Here{" "}
-                            </a>
                           </div>
                           <div className={classes.App}>
                             <h1>
