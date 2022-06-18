@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import classes from "../StudentMainPage/RegisterCourse.module.css";
-import firebase from "firebase";
+import firebase from "../firebase";
 import { db } from "../firebase";
 import { useNavigate } from "react-router-dom";
 import storage from "../firebase";

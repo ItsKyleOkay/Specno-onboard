@@ -1,7 +1,7 @@
 import classes from "../StudentMainPage/DeRegister.module.css";
 import { db } from "../firebase";
 import React, { useState, useEffect } from "react";
-import firebase from "firebase";
+import firebase from "../firebase";
 import { useNavigate } from "react-router-dom";
 
 const DeRegister = () => {

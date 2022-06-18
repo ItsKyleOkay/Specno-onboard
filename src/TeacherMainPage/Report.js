@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import classes from "./Students.module.css";
-import firebase from "firebase";
+import firebase from "../firebase";
 import { db } from "../firebase";
 
 const Students = () => {

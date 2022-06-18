@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { db } from "../firebase";
 import classes from "./Students.module.css";
-import firebase from "firebase";
+import firebase from "../firebase";
 import { useNavigate } from "react-router-dom";
 
 const SoftSearch = () => {

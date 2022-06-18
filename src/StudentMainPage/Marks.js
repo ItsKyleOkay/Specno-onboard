@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { db } from "../firebase";
 import classes from "./Marks.module.css";
-import firebase from "firebase";
+import firebase from "../firebase";
 
 const Marks = () => {
   const [loading, setLoading] = useState(true);

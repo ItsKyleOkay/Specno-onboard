@@ -1,7 +1,7 @@
 import React, { useContext, useState } from "react";
 import { auth, generateUserDocument } from "../firebase";
 import { useNavigate } from "react-router-dom";
-import firebase from "firebase";
+import firebase from "../firebase";
 import Popup from "reactjs-popup";
 
 const SignUp = () => {
